@@ -1,7 +1,7 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, ReactNode } from "react";
 
 type Props = {
-  children: React.ReactNode;
+  children: ReactNode;
   onContentEndVisible: () => void;
 };
 
